@@ -5,7 +5,7 @@ export type {
 	GuideChoiceQuestion,
 	GuideDefinition,
 	GuideQuestion,
-	GuideTextQuestion
+	GuideTextQuestion,
 } from '@overbase/builder-sdk/catalog';
 export type {
 	EmailBuilderTurnStreamHandlers,

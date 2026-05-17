@@ -1,9 +1,14 @@
-import { newProgramExamples } from "./new-program";
+import { bringTheFirmExamples } from "./new-program";
 
 export type { BringTheFirmExample, BringTheFirmExamples } from "./types";
-export * from "./new-program";
-
-export const bringTheFirmExamples = [newProgramExamples];
+export {
+  bringTheFirmExamples,
+  ecosystemSignalsExamples,
+  establishedProgramExamples,
+  newProgramExamples,
+  pursuitExpansionExamples,
+  salesLifecycleExamples,
+} from "./new-program";
 
 export function listBringTheFirmExamples() {
   return [...bringTheFirmExamples];
